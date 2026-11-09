@@ -1,0 +1,31 @@
+name: offline_language_app
+description: A fully offline single-language learning app inspired by Busuu. CEFR-aligned lessons, SRS vocabulary review, and local progress tracking.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  collection: ^1.18.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/content/
+    - assets/audio/
+    - assets/images/
